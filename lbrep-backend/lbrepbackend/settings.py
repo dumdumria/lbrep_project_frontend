@@ -164,3 +164,8 @@ DJOSER = {
     'SERIALIZERS': {},
 
 }
+
+try:
+    from server_settings import *
+except ImportError:
+    pass
