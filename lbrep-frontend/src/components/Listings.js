@@ -114,7 +114,7 @@ function Listings() {
     async function GetAllListings() {
       try {
         const response = await Axios.get(
-          'http://127.0.0.1:8000/api/listings/',
+          'http://134.209.149.140/api/listings/',
           { CancelToken: source.token }
         )
         console.log("Fetched listings:", response.data);
